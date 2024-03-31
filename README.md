@@ -54,7 +54,7 @@ Tüm yaklaşımlar farklı farklı çıktılar verse de aralarında gözle gör�
 
 ## Uygulanılan Adımlar:
 
-### 1. Veri Keşfi ve Temizliği: Veri seti çok kirli olduğu için en çok zamanımızı alan aşama bu oldu.
+### 1. Veri Keşfi ve Temizliği:
 - Veri setini inceleyerek eksik veya anormal değerlerin tespit edilmesi.
 - Tespit edilen eksik değerlerin IterativeImputer ile tahmin edilerek doldurulması. Bazı değişkenlerde ise rastgele şekilde doldurulması.
 - Veri setindeki eksik değer oranı fazla olan değişkenlerin doldurulması yerine silinmesi.
