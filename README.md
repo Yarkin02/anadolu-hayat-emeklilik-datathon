@@ -11,6 +11,13 @@ For an Medium article and Kaggle notebook on dealing with imbalanced datasets, y
 + [Medium Article](https://medium.com/@enesmanan768/dengesiz-veri-setlerinde-modelleme-a2830e05e0ff)
 + [Kaggle Notebook](https://www.kaggle.com/code/smailyarknkavalc/classification-in-imbalanced-data)
 
+####  ✨Owners:
+
+[Enes Fehmi Manan](https://github.com/enesmanan)
+
+[Yarkın Kavalcı](https://github.com/Yarkin02)
+
+
 ## Proje Açıklaması:
 
 Bu proje, Hayat Sigorta Emeklilik Datathon'u için geliştirilmiştir. Bu projenin amacı, 
@@ -90,9 +97,3 @@ Tüm yaklaşımlar farklı farklı çıktılar verse de aralarında gözle gör�
 ## Sonuç:
 
 Public LB'de elde ettiğimiz 0.11360 Ağırlıklı F1-Skoru ile 185 Grup arasından 15. olduğumuz yarışmayı, Private LB'de seçilen yanlış Submission sonucu 26. tamamladık.
-
-####  ✨Owners:
-
-[Enes Fehmi Manan](https://github.com/enesmanan)
-
-[Yarkın Kavalcı](https://github.com/Yarkin02)
