@@ -54,17 +54,17 @@ Tüm yaklaşımlar farklı farklı çıktılar verse de aralarında gözle gör�
 
 ## Uygulanılan Adımlar:
 
-1. Veri Keşfi ve Temizliği: Veri seti çok kirli olduğu için en çok zamanımızı alan aşama bu oldu.
+### 1. Veri Keşfi ve Temizliği: Veri seti çok kirli olduğu için en çok zamanımızı alan aşama bu oldu.
 - Veri setini inceleyerek eksik veya anormal değerlerin tespit edilmesi.
 - Tespit edilen eksik değerlerin IterativeImputer ile tahmin edilerek doldurulması. Bazı değişkenlerde ise rastgele şekilde doldurulması.
 - Veri setindeki eksik değer oranı fazla olan değişkenlerin doldurulması yerine silinmesi.
 
-2. Veri Görselleştirme:
+### 2. Veri Görselleştirme:
 - Veri setindeki ilişkilerin, dağılımların ve desenlerin görselleştirilmesi.
 - Özellikler arasındaki ilişkilerin ve etkileşimlerin anlaşılması için grafikler oluşturulması.
 - Bağımlı değişkendeki(Label değişkeni) dengesizliğin görselleştirilmesi.
 
-3. Özellik Mühendisliği:
+### 3. Özellik Mühendisliği:
 - Verilen Excel dosyasındaki özelliklerin mergelenerek modele katkı sağlayıp sağlamadığının gözlemlenmesi.(Modele katkısı olmadığı için silindi.)
 - Var olan değişkenlerden yeni değişkenler türetilmesi.
 - Değişkenlerin encodelenmesi.
@@ -80,13 +80,13 @@ Tüm yaklaşımlar farklı farklı çıktılar verse de aralarında gözle gör�
   
   Before oversampling:  Counter({0: 67461, 1: 9704, 2: 3357, 3: 2877, 4: 678, 5: 608, 6: 401, 7: 368}), After oversampling:  Counter({0: 67461, 1: 15000, 2: 5050, 3: 4000, 4: 1250, 5: 1250, 6: 850, 7: 750})
 
-4. Model Geliştirme
+### 4. Model Geliştirme
 - XGBoost, Lightgbm, Catboost gibi Farklı algoritmalar denenmiştir. XGBoost diğer algoritmalara göre daha iyi performans gösterdiği için tercih edilmiştir.
 - Hipertarametre optimizasyonu ve çapraz doğrulama gibi teknikler kullanarak modellerin iyileştirilmesi ve overfitting durumu incelenmiştir.
 - Overfitting durumunu engellemek için XGBoost algoritmasındaki, reg_lambda parametresi kullanılmış yani L2 Regularizationu uygulanmıştır.
 - Fakat modelin karmaşıklığından dolayı parametre tuning işlemlerinde sağlıklı bir sonuç yakalanamadığından sadece reg_lambda değeri belirtilmiş basit XGBoost modeli tercih edilmiştir.
 
-5. Sonuçları Değerlendirme
+### 5. Sonuçları Değerlendirme
 - Bu aşamada Hayat sigorta emeklilik tarafından belirlenen katsayılar nezlinde Ağırlıklı F1-Skor metriği ile modeller değerlendirilmiştir. Belirtilen katsayılar şu şekildedir;
 
   [UA = 0.0001, HU14 = 0.0113, HU07 = 0.0328, HU06 = 0.0385, HU19 = 0.1614, HU12 = 0.1812, HU11 = 0.2791, HU15 = 0.2952]
