@@ -14,7 +14,7 @@ For an Medium article and Kaggle notebook on dealing with imbalanced datasets, y
 ####  Owners:✨
 
 + [Enes Fehmi Manan](https://github.com/enesmanan)
-+ [Yarkın Kavalcı](https://github.com/Yarkin02)
++ [İsmail Yarkın Kavalcı](https://github.com/Yarkin02)
 
 
 ## Proje Açıklaması:
